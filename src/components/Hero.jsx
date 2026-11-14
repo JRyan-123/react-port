@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 
 const Hero = () => {
   return (
-    <div className="px-16 md:px-32 py-32 flex justify-center items-center w-full min-h-screen">
+    <div id="home" className="px-8 md:px-32 py-32 flex justify-center items-center w-full min-h-screen">
       <div className="flex flex-col gap-10 justify-center items-center text-white">
         <motion.div
         initial={{y:-50, opacity: 0}}
