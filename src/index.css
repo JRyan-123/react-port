@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import "tailwindcss";
 
-
+*{
+  scroll-behavior: smooth;
+}
 
 @theme {
   --font-dm-sans: "DM Sans", sans-serif;
@@ -10,4 +12,16 @@
 body {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  
+}
+
+::-webkit-scrollbar-track{
+  background: rgba(0, 0, 0, 0.9);
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(to bottom, rgb(0,62,196), rgb(184,0,153));
 }
